@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740">
+<style>
+.bg{fill:#000}.h{font:600 16px sans-serif;fill:#A7E58F}.t{font:600 15px sans-serif;fill:#fff}
+.s{font:11px sans-serif;fill:#9CA3AF}.num{font:bold 36px sans-serif;fill:#A7E58F}
+.numR{font:bold 36px sans-serif;fill:#DC2626}.numO{font:bold 36px sans-serif;fill:#EA580C}
+.lbl{font:13px sans-serif;fill:#9CA3AF}.tab{font:10px sans-serif;fill:#A7E58F}
+</style>
+<rect class="bg" width="360" height="740"/>
+<!-- Header -->
+<circle cx="30" cy="32" r="14" fill="#F5F5DC" stroke="#1A3C34" stroke-width="2"/>
+<text x="30" y="36" text-anchor="middle" font-size="11" fill="#1A3C34" font-weight="bold">A</text>
+<text x="56" y="30" class="h">Avoclock</text>
+<text x="125" y="30" font-size="9" fill="#A7E58F">v5.9.8</text>
+<text x="56" y="46" class="s">11:35</text>
+<rect x="280" y="22" width="62" height="22" rx="11" fill="#7F1D1D"/>
+<text x="311" y="37" text-anchor="middle" font-size="10" fill="#fff">● Offline</text>
+<line x1="0" y1="60" x2="360" y2="60" stroke="#A7E58F" stroke-width="0.5"/>
+<!-- Title -->
+<text x="14" y="92" class="h" font-size="20">📊 Vorrat-Statistik</text>
+<text x="14" y="116" class="s">💡 Tippe eine Kachel an um die Liste zu sehen</text>
+<!-- Cards -->
+<rect x="14" y="130" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="94" y="178" text-anchor="middle" class="num">19</text>
+<text x="94" y="208" text-anchor="middle" class="lbl">Produkte gesamt</text>
+<rect x="186" y="130" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="266" y="178" text-anchor="middle" class="numR">0</text>
+<text x="266" y="208" text-anchor="middle" class="lbl">Abgelaufen</text>
+<rect x="14" y="240" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="94" y="288" text-anchor="middle" class="numO">1</text>
+<text x="94" y="318" text-anchor="middle" class="lbl">Bald MHD (≤3 Tage)</text>
+<rect x="186" y="240" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="266" y="288" text-anchor="middle" class="num">18</text>
+<text x="266" y="318" text-anchor="middle" class="lbl">Frisch</text>
+<!-- Pro Standort -->
+<text x="14" y="380" class="h" font-size="18">Pro Standort</text>
+<rect x="14" y="396" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="14" y="396" width="4" height="60" fill="#DBEAFE"/>
+<rect x="32" y="408" width="36" height="36" rx="6" fill="#DBEAFE"/>
+<text x="50" y="434" text-anchor="middle" font-size="20">🧊</text>
+<text x="78" y="432" class="t">Kühlschrank Küche</text>
+<text x="320" y="432" text-anchor="end" class="num" font-size="20">16</text>
+<rect x="14" y="466" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="14" y="466" width="4" height="60" fill="#FEF3C7"/>
+<rect x="32" y="478" width="36" height="36" rx="6" fill="#FEF3C7"/>
+<text x="50" y="504" text-anchor="middle" font-size="18">📦</text>
+<text x="78" y="502" class="t">Vorratskammer</text>
+<text x="320" y="502" text-anchor="end" class="num" font-size="20">2</text>
+<rect x="14" y="536" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="14" y="536" width="4" height="60" fill="#F3F4F6"/>
+<rect x="32" y="548" width="36" height="36" rx="6" fill="#F3F4F6"/>
+<text x="50" y="574" text-anchor="middle" font-size="18">🏠</text>
+<text x="78" y="572" class="t">Sonstiger Ort</text>
+<text x="320" y="572" text-anchor="end" class="num" font-size="20">1</text>
+<!-- Tab bar -->
+<rect x="0" y="690" width="360" height="50" fill="#0F1B17"/>
+<text x="33" y="715" text-anchor="middle" font-size="18">🏠</text><text x="33" y="730" text-anchor="middle" class="tab">Start</text>
+<text x="79" y="715" text-anchor="middle" font-size="18">📋</text><text x="79" y="730" text-anchor="middle" class="tab">Vorrat</text>
+<text x="125" y="715" text-anchor="middle" font-size="18">🛒</text><text x="125" y="730" text-anchor="middle" class="tab">Einkauf</text>
+<text x="179" y="715" text-anchor="middle" font-size="18">🏪</text><text x="179" y="730" text-anchor="middle" class="tab">Orte</text>
+<rect x="220" y="700" width="34" height="34" rx="6" fill="#1A3C34"/>
+<text x="233" y="715" text-anchor="middle" font-size="18">📊</text><text x="233" y="730" text-anchor="middle" class="tab">Statistik</text>
+<text x="287" y="715" text-anchor="middle" font-size="18">📅</text><text x="287" y="730" text-anchor="middle" class="tab">Kal.</text>
+<text x="333" y="715" text-anchor="middle" font-size="18">🍳</text><text x="333" y="730" text-anchor="middle" class="tab">Rezepte</text>
+</svg>
