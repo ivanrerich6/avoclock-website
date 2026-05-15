@@ -1,0 +1,7 @@
+# Avoclock - robots.txt
+# Erlaubt allen Suchmaschinen die komplette Seite zu indexieren
+
+User-agent: *
+Allow: /
+
+Sitemap: https://avoclock.de/sitemap.xml
