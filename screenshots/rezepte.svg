@@ -17,7 +17,7 @@
 <line x1="0" y1="60" x2="360" y2="60" stroke="#A7E58F" stroke-width="0.5"/>
 <!-- Title -->
 <text x="14" y="92" class="h" font-size="20">🍳 Rezepte</text>
-<text x="346" y="92" text-anchor="end" class="s">110 Ideen</text>
+<text x="346" y="92" text-anchor="end" class="s">141 Ideen</text>
 <!-- Scan-Button -->
 <rect x="14" y="108" width="332" height="60" rx="14" fill="#1A3C34" stroke="#4A8C2A"/>
 <text x="40" y="144" font-size="22">📷</text>
