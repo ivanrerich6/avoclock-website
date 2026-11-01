@@ -3,61 +3,85 @@
 .bg{fill:#000}.h{font:600 16px sans-serif;fill:#A7E58F}.t{font:600 15px sans-serif;fill:#fff}
 .s{font:11px sans-serif;fill:#9CA3AF}.num{font:bold 36px sans-serif;fill:#A7E58F}
 .numR{font:bold 36px sans-serif;fill:#DC2626}.numO{font:bold 36px sans-serif;fill:#EA580C}
-.lbl{font:13px sans-serif;fill:#9CA3AF}.tab{font:10px sans-serif;fill:#A7E58F}
+.lbl{font:13px sans-serif;fill:#9CA3AF}.tab{font:10px sans-serif;fill:#A7E58F}.ver{font:9px sans-serif;fill:#9CA3AF}
 </style>
 <rect class="bg" width="360" height="740"/>
 <!-- Header -->
+<rect width="360" height="60" fill="#0F1B17"/>
 <g aria-label="Avoclock Logo"><circle cx="30" cy="32" r="14" fill="#0F4B2D"/><circle cx="30" cy="32" r="11.6" fill="#F3EBD3"/><circle cx="30" cy="32" r="7.8" fill="#3E9B2A"/><circle cx="30" cy="32" r="5.6" fill="#C9E86A"/><circle cx="30" cy="32" r="2.7" fill="#8A3A1B"/><line x1="30" y1="32" x2="25.5" y2="29" stroke="#1A1A1A" stroke-width="1" stroke-linecap="round"/><line x1="30" y1="32" x2="34" y2="26.5" stroke="#1A1A1A" stroke-width="1" stroke-linecap="round"/></g>
 <text x="56" y="30" class="h">Avoclock</text>
-<text x="136" y="30" font-size="9" font-family="sans-serif" fill="#A7E58F">v5.12.2</text>
-<text x="56" y="46" class="s">11:35</text>
-<rect x="280" y="22" width="62" height="22" rx="11" fill="#7F1D1D"/>
-<text x="311" y="37" text-anchor="middle" font-size="10" fill="#fff">● Offline</text>
+<rect x="134" y="19" width="44" height="15" rx="4" fill="#1F2E29"/>
+<text x="156" y="30" text-anchor="middle" class="ver">v5.12.7</text>
+<text x="56" y="47" class="s" font-size="12">18:41</text>
+<circle cx="282" cy="32" r="4.5" fill="#B91C1C"/>
+<text x="322" y="39" text-anchor="middle" font-size="20">⚙️</text>
 <line x1="0" y1="60" x2="360" y2="60" stroke="#A7E58F" stroke-width="0.5"/>
 <!-- Title -->
-<text x="14" y="92" class="h" font-size="20">📊 Vorrat-Statistik</text>
-<text x="14" y="116" class="s">💡 Tippe eine Kachel an um die Liste zu sehen</text>
-<!-- Cards -->
-<rect x="14" y="130" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
-<text x="94" y="178" text-anchor="middle" class="num">19</text>
-<text x="94" y="208" text-anchor="middle" class="lbl">Produkte gesamt</text>
-<rect x="186" y="130" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
-<text x="266" y="178" text-anchor="middle" class="numR">0</text>
-<text x="266" y="208" text-anchor="middle" class="lbl">Abgelaufen</text>
-<rect x="14" y="240" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
-<text x="94" y="288" text-anchor="middle" class="numO">1</text>
-<text x="94" y="318" text-anchor="middle" class="lbl">Bald MHD (≤3 Tage)</text>
-<rect x="186" y="240" width="160" height="100" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
-<text x="266" y="288" text-anchor="middle" class="num">18</text>
-<text x="266" y="318" text-anchor="middle" class="lbl">Frisch</text>
+<text x="14" y="92" class="h" style="font-size:20px">📊 Vorrat-Statistik</text>
+<!-- Zahlenkarten -->
+<rect x="14" y="110" width="160" height="92" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="94" y="158" text-anchor="middle" class="num">24</text>
+<text x="94" y="186" text-anchor="middle" class="lbl">Produkte gesamt</text>
+<rect x="186" y="110" width="160" height="92" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="266" y="158" text-anchor="middle" class="numR">1</text>
+<text x="266" y="186" text-anchor="middle" class="lbl">Abgelaufen</text>
+<rect x="14" y="212" width="160" height="92" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="94" y="260" text-anchor="middle" class="numO">3</text>
+<text x="94" y="288" text-anchor="middle" class="lbl">Bald MHD (≤3 Tage)</text>
+<rect x="186" y="212" width="160" height="92" rx="14" fill="#0F1B17" stroke="#1A3C34"/>
+<text x="266" y="260" text-anchor="middle" class="num">20</text>
+<text x="266" y="288" text-anchor="middle" class="lbl">Frisch</text>
 <!-- Pro Standort -->
-<text x="14" y="380" class="h" font-size="18">Pro Standort</text>
-<rect x="14" y="396" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
-<rect x="14" y="396" width="4" height="60" fill="#DBEAFE"/>
-<rect x="32" y="408" width="36" height="36" rx="6" fill="#DBEAFE"/>
-<text x="50" y="434" text-anchor="middle" font-size="20">🧊</text>
-<text x="78" y="432" class="t">Kühlschrank Küche</text>
-<text x="320" y="432" text-anchor="end" class="num" font-size="20">16</text>
-<rect x="14" y="466" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
-<rect x="14" y="466" width="4" height="60" fill="#FEF3C7"/>
-<rect x="32" y="478" width="36" height="36" rx="6" fill="#FEF3C7"/>
-<text x="50" y="504" text-anchor="middle" font-size="18">📦</text>
-<text x="78" y="502" class="t">Vorratskammer</text>
-<text x="320" y="502" text-anchor="end" class="num" font-size="20">2</text>
-<rect x="14" y="536" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
-<rect x="14" y="536" width="4" height="60" fill="#F3F4F6"/>
-<rect x="32" y="548" width="36" height="36" rx="6" fill="#F3F4F6"/>
-<text x="50" y="574" text-anchor="middle" font-size="18">🏠</text>
-<text x="78" y="572" class="t">Sonstiger Ort</text>
-<text x="320" y="572" text-anchor="end" class="num" font-size="20">1</text>
-<!-- Tab bar -->
+<text x="14" y="346" class="h" style="font-size:18px">Pro Standort</text>
+
+<rect x="14" y="362" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="30" y="374" width="36" height="36" rx="8" fill="#DBEAFE"/>
+<text x="48" y="400" text-anchor="middle" font-size="20">🧊</text>
+<text x="78" y="387" class="t">Kühlschr.</text>
+<rect x="78" y="398" width="222" height="7" rx="3.5" fill="#1A2A24"/>
+<rect x="78" y="398" width="222" height="7" rx="3.5" fill="#4A8C2A"/>
+<text x="334" y="400" text-anchor="end" class="num" style="font-size:20px">11</text>
+
+<rect x="14" y="432" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="30" y="444" width="36" height="36" rx="8" fill="#CFFAFE"/>
+<text x="48" y="470" text-anchor="middle" font-size="20">❄️</text>
+<text x="78" y="457" class="t">Gefrierfach</text>
+<rect x="78" y="468" width="222" height="7" rx="3.5" fill="#1A2A24"/>
+<rect x="78" y="468" width="121" height="7" rx="3.5" fill="#4A8C2A"/>
+<text x="334" y="470" text-anchor="end" class="num" style="font-size:20px">6</text>
+
+<rect x="14" y="502" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="30" y="514" width="36" height="36" rx="8" fill="#A5F3FC"/>
+<text x="48" y="540" text-anchor="middle" font-size="20">🥶</text>
+<text x="78" y="527" class="t">Truhe Keller</text>
+<rect x="78" y="538" width="222" height="7" rx="3.5" fill="#1A2A24"/>
+<rect x="78" y="538" width="40" height="7" rx="3.5" fill="#4A8C2A"/>
+<text x="334" y="540" text-anchor="end" class="num" style="font-size:20px">2</text>
+
+<rect x="14" y="572" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="30" y="584" width="36" height="36" rx="8" fill="#FEF3C7"/>
+<text x="48" y="610" text-anchor="middle" font-size="20">📦</text>
+<text x="78" y="597" class="t">Kammer</text>
+<rect x="78" y="608" width="222" height="7" rx="3.5" fill="#1A2A24"/>
+<rect x="78" y="608" width="81" height="7" rx="3.5" fill="#4A8C2A"/>
+<text x="334" y="610" text-anchor="end" class="num" style="font-size:20px">4</text>
+
+<!-- fuenfte Zeile, von der Tab-Leiste unten angeschnitten -->
+<rect x="14" y="642" width="332" height="60" rx="12" fill="#0F1B17" stroke="#1A2A24"/>
+<rect x="30" y="654" width="36" height="36" rx="8" fill="#FCE7F3"/>
+<text x="48" y="680" text-anchor="middle" font-size="20">🍷</text>
+<text x="78" y="667" class="t">Weinkeller</text>
+<rect x="78" y="678" width="222" height="7" rx="3.5" fill="#1A2A24"/>
+<rect x="78" y="678" width="20" height="7" rx="3.5" fill="#4A8C2A"/>
+<text x="334" y="680" text-anchor="end" class="num" style="font-size:20px">1</text>
+
+<!-- Tab bar (5 Tabs, je 72 breit; Ansicht kommt von der Start-Kachel) -->
 <rect x="0" y="690" width="360" height="50" fill="#0F1B17"/>
-<text x="33" y="715" text-anchor="middle" font-size="18">🏠</text><text x="33" y="730" text-anchor="middle" class="tab">Start</text>
-<text x="79" y="715" text-anchor="middle" font-size="18">📋</text><text x="79" y="730" text-anchor="middle" class="tab">Vorrat</text>
-<text x="125" y="715" text-anchor="middle" font-size="18">🛒</text><text x="125" y="730" text-anchor="middle" class="tab">Einkauf</text>
-<text x="179" y="715" text-anchor="middle" font-size="18">🏪</text><text x="179" y="730" text-anchor="middle" class="tab">Orte</text>
-<rect x="220" y="700" width="34" height="34" rx="6" fill="#1A3C34"/>
-<text x="233" y="715" text-anchor="middle" font-size="18">📊</text><text x="233" y="730" text-anchor="middle" class="tab">Statistik</text>
-<text x="287" y="715" text-anchor="middle" font-size="18">📅</text><text x="287" y="730" text-anchor="middle" class="tab">Kal.</text>
-<text x="333" y="715" text-anchor="middle" font-size="18">🍳</text><text x="333" y="730" text-anchor="middle" class="tab">Rezepte</text>
+<line x1="0" y1="690" x2="360" y2="690" stroke="#1A3C34" stroke-width="1"/>
+<rect x="4" y="694" width="64" height="44" rx="8" fill="#14241E"/>
+<text x="36" y="715" text-anchor="middle" font-size="18">🏠</text><text x="36" y="731" text-anchor="middle" class="tab">Start</text>
+<text x="108" y="715" text-anchor="middle" font-size="18">📋</text><text x="108" y="731" text-anchor="middle" class="tab">Vorrat</text>
+<text x="180" y="715" text-anchor="middle" font-size="18">🛒</text><text x="180" y="731" text-anchor="middle" class="tab">Einkauf</text>
+<text x="252" y="715" text-anchor="middle" font-size="18">📅</text><text x="252" y="731" text-anchor="middle" class="tab">Termine</text>
+<text x="324" y="715" text-anchor="middle" font-size="18">🍳</text><text x="324" y="731" text-anchor="middle" class="tab">Rezepte</text>
 </svg>
