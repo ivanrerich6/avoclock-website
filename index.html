@@ -188,6 +188,20 @@
     border: 1px solid rgba(167,229,143,0.4);
   }
 
+  /* === Logo-Video (eigene Datei, kein Drittanbieter) === */
+  .video-section { padding-top: 56px; padding-bottom: 24px; }
+  .video-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(26,60,52,0.18);
+    background: #F3F1E6;
+    line-height: 0;
+  }
+  .video-wrap video { width: 100%; height: auto; display: block; }
+  .video-note { text-align: center; color: #777; font-size: 13px; margin-top: 12px; }
+
   /* === Sections === */
   section {
     padding: 70px 24px;
@@ -535,6 +549,16 @@
     <span class="hero-pill">🇩🇪 Made in Lippstadt</span>
   </div>
 </header>
+
+<!-- LOGO-VIDEO (liegt auf avoclock.de selbst, keine Verbindung zu YouTube oder anderen Diensten) -->
+<section class="video-section" id="video">
+  <div class="video-wrap">
+    <video src="avoclock-logo-video.mp4" poster="avoclock-logo.png?v=2" autoplay muted loop playsinline controls preload="auto" aria-label="Avoclock Logo-Animation, 10 Sekunden">
+      Dein Browser kann dieses Video nicht abspielen.
+    </video>
+  </div>
+  <p class="video-note">Avoclock in 10 Sekunden. Ton über das Lautsprecher-Symbol einschalten.</p>
+</section>
 
 <!-- WAS IST AVOCLOCK -->
 <section id="features">
